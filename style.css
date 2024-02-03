@@ -1,0 +1,136 @@
+*{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(33, 33, 33, 1);
+    height: 50px;
+    width: 100%;
+    gap: 220px;
+}
+nav img{
+    width: 200px;
+}
+.search{
+    width: 600px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(18, 18, 18, 1);
+    color: white;
+    padding: 15px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.input > img {
+    margin-inline: 10px;
+    height: 20px;
+    width: 20px;
+}
+#container{
+    width: 100%;
+    display: flex;
+    color: white;
+}
+#left{
+    width: 100%;
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(33, 33, 33, 1);
+}
+#left > div{
+    padding: 10px;
+}
+.home{
+    padding: 2px 20px;
+    width: 100%;
+    display: flex;   
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home > img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+#right{
+    flex: 12;
+    background-color: black;
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px;
+    background-color: black;
+    overflow-x: scroll;
+}
+#right-top::-webkit-scrollbar{
+    display: none;
+}
+.All{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.item{
+    border:1px solid gray;
+    text-align: center;
+    background-color: rgba(33, 33, 33, 1);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+#videos-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    height: 630px;
+    overflow:scroll;
+    padding: 30px;
+}
+
+#videos-container::-webkit-scrollbar{
+    display: none;
+}
+
+.video {
+    padding-inline: 20px;
+    box-sizing: border-box;
+    width: 100%; /* Set the width to 100% to occupy the entire grid cell */
+    height: 80%; /* Set the height to 100% to occupy the entire grid cell */
+}
+
+.video img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover; /* Adjust the object-fit property based on your layout preferences */
+}
+a{
+    text-decoration: none;
+}
+.info{
+    color: azure;
+}

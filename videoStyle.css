@@ -1,0 +1,123 @@
+*{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    /* background-color: black; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(33, 33, 33, 1);
+    height: 50px;
+    width: 100%;
+    gap: 220px;
+}
+nav img{
+    width: 200px;
+}
+.search{
+    width: 600px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(18, 18, 18, 1);
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.input > img {
+    margin-inline: 10px;
+    height: 20px;
+    width: 20px;
+}
+#container{
+    display: flex;
+    padding: 50px 50px;
+    justify-content: space-evenly;
+    gap: 1rem;
+    color: white;
+    background-color: black;
+    height: auto;
+    padding: 50px;
+}
+#video-container{
+    height: 500px;
+    width: 930px;
+}
+#video-details{
+    width: 950px;
+}
+#recommended {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto; /* Add overflow to handle potential overflow content */
+    gap: 2rem;
+    height: auto;
+}
+
+#recommended > .videoDiv {
+    width: 400px;
+    height: 180px;
+    display: flex; /* Use inline-block to make them appear side by side */
+    margin-right: 20px; /* Add margin for spacing between items */
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#recommended > .videoDiv > img {
+    width: 300px;
+    height: 150px;
+}
+/* .side-pannel-recoom{ */
+/* } */
+.recom{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.chat{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(61,61,61);
+    border-radius: 20px;
+    padding: 8px;
+}
+.sub-topics-recomm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 2rem;
+}
+.sub-topics-recomm > span{
+    background-color: rgb(61,61,61);
+    border-radius: 20px;
+    padding: 5px;
+}
+.channelDetails{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+    font-weight: 700;
+    padding: 10px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}

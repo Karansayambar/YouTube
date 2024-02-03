@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="./videoStyle.css">
+  <title>Youtube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/Dakirby309-Simply-Styled-YouTube.256.png">
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="./assets/Yt-Button.svg" alt="">
+    </div>
+    <div class="input">
+      <input class="search" id="search-input" type="search" placeholder="Search">
+      <img id="search-btn" src="./assets/search.svg" alt="">
+      <img src="./assets/mic.svg" alt="">
+    </div>
+    <div class="profile">
+      <img src="./assets/Profile.svg" alt="">
+    </div>
+  </nav>
+  <div id="container">
+    <div>
+      <div id="video-container">
+        <!-- where video will be -->
+
+      </div>
+      <div id="video-details"></div>
+    </div>
+    <div class="side-pannel-recoom">
+      <div class="recom">
+        <span class="chat">Show Chat replay</span>
+        <div class="sub-topics-recomm">
+          <span>All</span>
+          <span>Related</span>
+          <span>For You</span>
+        </div>
+      </div>
+      <div id="recommended"></div>
+    </div>
+    </div>
+  </div>
+  <!-- official script yt - cdn -->
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="./video.js"></script>
+</body>
+
+</html>
